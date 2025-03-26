@@ -1,19 +1,112 @@
+<!-- Header -->
+<link rel="stylesheet" href="../css/header.css" />
 <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
+  <div class="header-container">
+    <div class="navbar-container">
+      <nav class="navbar">
+        <a href="#" class="header-link-logo">
+          <img
+            width="123"
+            height="16"
+            src="../images/header/logo.svg"
+            class="header-icon-logo"
+          />
+        </a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link">About us </a>
+          </li>
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link">Our courses</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#mentors" class="navbar-link">Our mentors</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#reviews" class="navbar-link">Reviews</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#footer" class="navbar-link">Contacts</a>
+          </li>
+        </ul>
+        <a href="#signup" class="sign-camera">
+          <img
+            width="32"
+            height="32" 
+            class="sign-camera-icon"
+            src="../images/header/camera.svg"
+          />
+        </a>
+        <button class="header-btn-menu" type="button">
+          <img
+            width="32"
+            height="22"
+            src="../images/header/menu-button-mob.svg"
+            class="header-btn-menu-icon hbmi-mob"
+          />
+          <img
+            width="40"
+            height="28"
+            src="../images/header/menu-button-tab.svg"
+            class="header-btn-menu-icon hbmi-tab"
+          />
+        </button>
+      </nav>
+    </div>
+    <a href="#signup" class="header-btn">Sign up</a>
+  </div>
+  <!--Hamburger Menu-->
+  <div class="mobile-menu">
+    <div class="mobile-menu-container">
+      <div class="mobile-menu-box">
+        <button type="button" class="mobile-btn-close">
+          <img
+            width="32"
+            height="32"
+            class="mobile-btn-close-icon"
+            src="../images/header/close.svg"
+          />
+        </button>
+
+        <ul class="mobile-nav-menu">
+          <li class="mobile-nav-list">
+            <a href="#about" class="mobile-item-link">About us</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#courses" class="mobile-item-link">Our courses</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#mentors" class="mobile-item-link">Our mentors</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#reviews" class="mobile-item-link">Reviews</a>
+          </li>
+          <li class="mobile-nav-list">
+            <a href="#footer" class="mobile-item-link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <picture>
+        <source
+          srcset="
+            /images/header/h.menu-camera-tab.jpg    1x,
+            /images/header/h.menu-camera-tab-2x.jpg 2x
+          "
+          media="(min-width:768px)"
+        />
+        <source
+          srcset="
+            /images/header/h.menu-camera-mob.jpg    1x,
+            /images/header/h.menu-camera-mob-2x.jpg 2x
+          "
+          media="(min-width:320px)"
+        />
+        <img
+          src="/images/header/h.menu-camera-mob.jpg"
+          alt="Camera"
+          class="header-img"
+        />
+      </picture>
+    </div>
   </div>
 </header>

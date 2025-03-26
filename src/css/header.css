@@ -63,7 +63,7 @@ ul {
   justify-content: center;
   background-color: transparent;
   cursor: pointer;
-  padding: 16px 20px 16px 0px; 
+  padding: 16px 20px 16px 0px;
   border: none;
 }
 
@@ -104,7 +104,7 @@ ul {
 }
 
 .mobile-menu {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -120,6 +120,7 @@ ul {
 }
 
 .mobile-menu.active {
+  display: flex;
   opacity: 1;
   visibility: visible;
 }
@@ -257,7 +258,7 @@ ul {
     padding: 0 50px;
   }
   .header-icon-logo {
-   
+
     margin-right: 0;
   }
 

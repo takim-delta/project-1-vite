@@ -24,6 +24,7 @@ ul {
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
+  background-color: #121212;
 }
 
 .navbar {
@@ -293,6 +294,7 @@ ul {
     width: 238px;
     visibility: visible;
   }
+  
 }
 
 /* 1440px and up */

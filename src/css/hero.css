@@ -1,0 +1,233 @@
+.hero {
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.hero-wrap {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1d;
+  padding: 40px 20px 0 20px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  font-style: italic;
+  color: #bea69e;
+  font-weight: 400;
+}
+
+.hero-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.hero-students-list {
+  position: relative;
+  width: 110px;
+}
+
+.hero-student-item {
+  width: 44px;
+  height: 44px;
+}
+
+.student-link {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 6px;
+  letter-spacing: -0.04em;
+}
+
+.arrow-icon {
+  fill: #ffff;
+}
+
+.hero-students-link:hover,
+.hero-students-link:focus,
+.hero-students-link:active {
+  color: rgba(190, 166, 158, 1);
+}
+
+.hero-students-link:hover .hero-students-icon,
+.hero-students-link:focus .hero-students-icon,
+.hero-students-link:active .hero-students-icon {
+  fill: rgba(190, 166, 158, 1);
+}
+
+.hero-reviews-wrap {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  gap: 25px;
+}
+
+.hero-star-reviews {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.reviews-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviews-icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bea69e;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+
+.hero-star-icon {
+  fill: transparent;
+  stroke: #121212;
+}
+
+.reviews-sub-text {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+}
+
+.reviews-number {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.hero-picture {
+  align-self: center;
+}
+
+@media screen and (min-width: 386px) {
+  .hero-reviews-wrap {
+    gap: 40px;
+    justify-content: flex-start;
+  }
+}
+
+/*---Tablet---*/
+
+@media screen and (min-width:768px) {
+
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  .hero-wrap {
+    padding: 64px 32px 0 32px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.06;
+    max-width: 500px;
+  }
+
+  .hero-title span {
+    font-size: 60px;
+    line-height: 1.06;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-text{
+    max-width: 418px;
+  }
+
+  .hero-reviews-wrap {
+    margin-bottom: 40px;
+  }
+
+  .hero-students-wrap {
+    display: flex;
+    gap: 12px;
+  }
+
+  .hero-students-list {
+    width: 54px;
+    height: 54px;
+  }
+
+  .students-link {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+.reviews-sub-text {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+}
+
+.reviews-icon-container {
+  width: 50px;
+  height: 50px;
+}
+
+.reviews-number {
+  line-height: 1.25;
+}
+
+.reviews-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+}
+
+/*---Desktop----*/
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 150px;
+  }
+
+  .hero-wrap {
+    padding: 80px 50px 50px 50px;
+    position: relative;
+  }
+
+  .hero-title {
+    font-size: 64px;
+  }
+
+  .hero-title span {
+    font-size: 64px;
+  }
+
+  .hero-picture {
+    bottom:0;
+    right: 50px;
+    position: absolute;
+  }
+
+  .hero-text {
+    margin-bottom: 136px;
+  }
+}

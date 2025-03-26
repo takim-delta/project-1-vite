@@ -1,0 +1,105 @@
+section {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+}
+.signup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.modal {
+  width: 480px;
+  height: 578px;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: -4%;
+}
+
+.modal-title-span {
+  color: #bea69e;
+}
+
+.modal-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  margin-right: 40px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.modal-input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  width: 480px;
+  height: 60px;
+  border: 1px solid rgba (255, 255, 255, 0.2);
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.modal-input-user-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: white;
+  width: 480px;
+  height: 120px;
+  border: 1px solid rgba (255, 255, 255, 0.2);
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+
+.modal-submit-button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  width: 479px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 12px;
+  text-align: center;
+  background-color: white;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.modal-user-privacy {
+  margin-top: 20px;
+}
+
+.user-privacy {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.modal-img {
+  display: flex;
+}
+
+.signup-obj {
+  list-style: none;
+  background-color: #bea69e;
+  border-radius: 1000px;
+}
+
+.signup-mak {
+  list-style: none;
+  background-color: #1d1d1d;
+  padding: 10px;
+  border-radius: 1000px;
+}

@@ -58,6 +58,12 @@ body {
   background-color: #121212;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 150px 0;
+}
+
 /*---------------------------- MOBILE ----------------------------*/
 .container {
   max-width: 375px;

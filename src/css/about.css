@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.highlight {
+    color: #c4a99e;
+}
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #007bff;
+    padding: 20px;
+}
+
+.about-image {
+    width: 40%;
+}
+
+.about-text {
+    width: 60%;
+    text-align: left;
+    padding: 20px;
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: bold;
+}

@@ -87,6 +87,10 @@
   display: flex;
 }
 
+.modal-img-list {
+  display: flex;
+}
+
 .signup-obj {
   list-style: none;
   background-color: #bea69e;

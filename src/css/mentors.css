@@ -1,3 +1,7 @@
+body {
+  background-color: #000;
+}
+
 .mentors-container {
   max-width: 1280px;
   margin: auto;
@@ -19,12 +23,19 @@
 
 .mentors-ul {
   list-style: none;
-  display: none;
-  gap: 100px;
+  padding: 0;
+  margin: 0;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px; /* Daha iyi hizalama */
+}
+
+.mentors-ul li {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mentor-name {
@@ -32,8 +43,6 @@
   text-align: center;
   font-size: 28px;
   line-height: 32px;
-
-  flex-wrap: nowrap;
 }
 
 .mentor-p {
@@ -44,43 +53,19 @@
 }
 
 @media screen and (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-  .mentors-ul {
-    display: flex;
-    gap: 50px;
-    flex-direction: row;
-    flex-wrap: wrap;
+  .mentors-ul li {
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-
-  .mentors-ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
   .mentors-ul li {
-    width: calc(50% - 25px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: calc(50% - 20px);
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
   .mentors-ul li {
-    width: calc(25% - 25px);
+    width: calc(25% - 20px);
   }
 }

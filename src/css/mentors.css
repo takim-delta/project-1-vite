@@ -65,10 +65,9 @@
 
   .mentors-tittle {
     flex: 4;
-
     line-height: 1.125;
     font-size: 28px;
-
+    margin-bottom: 30px;
     margin-left: 40px;
   }
   .mentor-p {
@@ -86,6 +85,8 @@
     flex: 4;
     font-size: 48px;
     line-height: 1.125;
+    margin-bottom: 40px;
+    margin-left: 25px;
   }
   .mentor-p {
     flex: 5;

@@ -176,6 +176,8 @@
     align-items: flex-start;
     font-size: 16px;
     line-height: 1.25;
+    color: #bea69e;
+    text-decoration: none;
   }
 .reviews-sub-text {
   font-size: 16px;

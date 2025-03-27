@@ -168,6 +168,7 @@
 
   .hero-students-list {
     display: flex;
+    width: 137px;
   }
 
   .students-link {

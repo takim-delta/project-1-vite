@@ -1,6 +1,6 @@
-footer {
-  background-color: black;
-  color: white;
+.footer-wrap {
+  padding-top: 80px;
+  border-top: 1px solid #ffffff;
 }
 .footer-title {
   color: white;
@@ -31,4 +31,11 @@ footer {
 
 .privacy {
   margin-left: 140px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }

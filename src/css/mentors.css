@@ -54,6 +54,10 @@
   font-weight: 400;
 }
 
+.mentors-img {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 320px) {
   .mentors-ul li {
     width: 100%;
@@ -97,6 +101,8 @@
   .mentors-tittle {
     flex: 625;
     font-size: 48px;
+    margin-left: 16px;
+    margin-bottom: 60px;
   }
   .mentor-p {
     flex: 374;

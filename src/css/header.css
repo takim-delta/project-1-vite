@@ -245,6 +245,13 @@ ul {
     transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
       background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   }
+.header-btn:hover {
+  background-color: #bea69e;
+  color: #fff;
+  transform: scale(1.1);
+  box-shadow:  0 0 20px #bea69e, 0 0 40px #bea69e;
+}
+
 }
 /* 1280px and up */
 @media screen and (min-width: 1280px) {
@@ -294,7 +301,7 @@ ul {
     width: 238px;
     visibility: visible;
   }
-  
+
 }
 
 /* 1440px and up */

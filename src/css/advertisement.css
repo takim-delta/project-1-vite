@@ -1,19 +1,59 @@
+.advertisement {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px 0;
+}
+
 .master-div {
-  font-size: 59px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 59px;
-  line-height: 64px;
-  letter-spacing: -2%;
-  text-transform: uppercase;
-  align-items: center;
-  border: solid 1px #ffffff33;
+  overflow: hidden;
+  background-color: inherit;
 }
 
-.adver-text {
-  font-size: 59px;
-}
-
-.adver-span {
+.master-title {
   color: #bea69e;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+  min-width: 100%;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.master-title span {
+  color: #fff;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-150%);
+  }
+}
+
+/*------Tablet------*/
+@media screen and (min-width: 1280px) {
+  .master-title {
+    font-size: 59px;
+    line-height: 1.08;
+  }
+
+  .master-title {
+    animation-duration: 9s;
+  }
+}
+
+/*-------Desktop (1440px)------*/
+@media screen and (min-width: 1440px) {
+  .master-title {
+    animation-duration: 10s;
+  }
 }

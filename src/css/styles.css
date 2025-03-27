@@ -2,6 +2,7 @@
 /* Common styles */
 @import url("./base.css");
 /* Sections style */
+@import url("/css/advertisement.css");
 @import url("/css/about.css");
 @import url("/css/courses.css");
 @import url("/css/footer.css");

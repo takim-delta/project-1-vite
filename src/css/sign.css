@@ -85,7 +85,7 @@
 }
 
 .modal-img {
-  display: flex;
+  display: none;
 }
 
 .modal-img-list {
@@ -103,4 +103,22 @@
   background-color: #1d1d1d;
   padding: 10px;
   border-radius: 1000px;
+}
+
+/*----Tablet----*/
+
+@media screen and (min-width: 768px) {
+  .modal-img {
+    display: none;
+  }
+}
+
+/*-----Desktop-----*/
+
+@media screen and (min-width: 1280px) {
+  .modal-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

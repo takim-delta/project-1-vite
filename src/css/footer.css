@@ -1,0 +1,34 @@
+footer {
+  background-color: black;
+  color: white;
+}
+.footer-title {
+  color: white;
+}
+
+.focus-title {
+  margin-left: 140px;
+}
+
+.address-ul {
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-left: 100px;
+}
+
+.address-list {
+  gap: 14px;
+}
+
+.address-link {
+  text-decoration: none;
+  color: white;
+}
+
+.privacy {
+  margin-left: 140px;
+}

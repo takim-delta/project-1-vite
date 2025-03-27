@@ -4,22 +4,24 @@
     color: #c4a99e;
 }
 
-.about-section {
+.about-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: 20px auto;
-    border: 2px solid #007bff;
+    width: 335px;
     padding: 20px;
+    gap: 40px;
 }
 
 .about-image {
-    width: 40%;
+    width: 100%;
+    height: auto;
+
 }
 
 .about-text {
-    width: 60%;
+    width: 100%;
     text-align: left;
     padding: 20px;
 }
@@ -28,3 +30,4 @@
     font-size: 24px;
     font-weight: bold;
 }
+

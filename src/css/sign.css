@@ -45,7 +45,7 @@
   background-color: transparent;
   width: 335px;
   height: 46px;
-  border: 1px solid rgba (255, 255, 255, 0.2);
+  border: 1px solid #ffffff33;
   border-radius: 12px;
   margin-bottom: 14px;
   padding-left: 18px;
@@ -59,7 +59,7 @@
   background-color: transparent;
   width: 335px;
   height: 112px;
-  border: 1px solid rgba (255, 255, 255, 0.2);
+  border: 1px solid #ffffff33;
   border-radius: 12px;
   margin-bottom: 14px;
   padding-left: 18px;
@@ -96,6 +96,11 @@
 
 .modal-img {
   display: none;
+}
+
+.modal-submit-button:hover {
+  background-color: #1d1d1d;
+  color: #bea69e;
 }
 
 /*------Tablet------*/

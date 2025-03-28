@@ -70,5 +70,10 @@
 .review-rating {
   font-size: 20px;
   color: #c99;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 305px;
+}
+
+.reviews-stars {
+  margin-left: 50px;
 }

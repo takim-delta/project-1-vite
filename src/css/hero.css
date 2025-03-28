@@ -56,15 +56,15 @@
   fill: #ffff;
 }
 
-.hero-students-link:hover,
-.hero-students-link:focus,
-.hero-students-link:active {
+.students-link:hover,
+.students-link:focus,
+.students-link:active {
   color: rgba(190, 166, 158, 1);
 }
 
-.hero-students-link:hover .hero-students-icon,
-.hero-students-link:focus .hero-students-icon,
-.hero-students-link:active .hero-students-icon {
+.students-link:hover .hero-students-icon,
+.students-link:focus .hero-students-icon,
+.students-link:active .hero-students-icon {
   fill: rgba(190, 166, 158, 1);
 }
 
@@ -167,8 +167,8 @@
   }
 
   .hero-students-list {
-    width: 54px;
-    height: 54px;
+    display: flex;
+    width: 137px;
   }
 
   .students-link {
@@ -176,6 +176,8 @@
     align-items: flex-start;
     font-size: 16px;
     line-height: 1.25;
+    color: #bea69e;
+    text-decoration: none;
   }
 .reviews-sub-text {
   font-size: 16px;
@@ -229,5 +231,8 @@
 
   .hero-text {
     margin-bottom: 136px;
+  }
+  .hero-students-list {
+    display: flex;
   }
 }

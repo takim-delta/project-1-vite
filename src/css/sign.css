@@ -87,6 +87,11 @@
   height: 48px;
 }
 
+.modal-privacy-policy {
+  text-decoration: none;
+  color: #ffffff80;
+}
+
 .user-privacy {
   font-weight: 400;
   font-size: 12px;

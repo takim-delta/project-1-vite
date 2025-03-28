@@ -61,7 +61,6 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 150px 0;
 }
 
 /*---------------------------- MOBILE ----------------------------*/

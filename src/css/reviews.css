@@ -48,6 +48,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+  color: #ffffff80;
 }
 
 .review-role {
@@ -56,11 +57,16 @@
   margin: 0;
 }
 
+.student-name {
+  gap: 4px;
+}
+
 /* Review Text */
-.review-text {
+.review-content {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 20px;
   color: #ddd;
+  font-weight: 400;
 }
 
 /* Star Rating */

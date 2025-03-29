@@ -18,12 +18,15 @@
 /* Individual Review Card */
 
 .review-card {
-  background-color: #111;
-  border-radius: 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
-  width: 610px;
-  height: 196px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  width: 100%;
+  background-color: #121212;
+}
+
+.two {
+  display: none;
 }
 
 /* Profile Info */
@@ -47,29 +50,39 @@
 
 .review-title {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 16px;
   color: #ffffff80;
 }
 
 .review-role {
-  font-size: 14px;
+  font-size: 12px;
   color: #888;
   margin: 0;
 }
 
 /* Review Text */
 .review-content {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   color: #ddd;
   font-weight: 400;
 }
 
 /* Star Rating */
 .review-rating {
-  font-size: 20px;
+  font-size: 18px;
   color: #c99;
   margin-bottom: 20px;
   margin-left: 305px;
+}
+
+
+@media screen and (min-width: 1280px) {
+    .reviews-card {
+        width: calc((100% - 20px) / 2);
+    }
+    .two {
+        display: block;
+    }
 }

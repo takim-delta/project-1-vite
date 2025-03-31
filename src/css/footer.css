@@ -63,7 +63,7 @@
 .footer-ul {
   display: flex;
   flex-direction: column;
-  gap:14px;
+  gap: 14px;
 }
 
 .privacy {
@@ -148,7 +148,8 @@
   }
 
   .footer-social {
-    gap: 30px;
+    gap: 100px;
+    margin-left: 100px;
   }
   .footer-form-container {
     gap: 16px;

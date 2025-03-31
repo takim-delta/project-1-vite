@@ -86,6 +86,15 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .review-rating {
+    font-size: 18px;
+    color: #c99;
+    margin-bottom: 20px;
+    margin-left: 330px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .reviews-card {
     width: calc((100% - 20px) / 2);
@@ -114,6 +123,6 @@
     font-size: 18px;
     color: #c99;
     margin-bottom: 20px;
-    margin-left: 175px;
+    margin-left: 245px;
   }
 }
